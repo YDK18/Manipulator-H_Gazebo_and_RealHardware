@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>aecobot_manipulator_h_dynamixel_ctrl</name>
+  <version>1.0.0</version>
+  <description>
+    The Dynamixel controller package based on Dynamixel-Workbench for aecobot manipulator h.
+  </description>
+  <license>BSD</license>
+  <author email="jaewoo127@naver.com">Jaewoo Yoon</author>
+  <author email="rotnn429@naver.com">Jungeun Lee</author>
+  <author email="210321@naver.com">Deukkyoung Yoon</author>
+  <maintainer email="jaewoo127@naver.com">Jaewoo Yoon</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>dynamixel_sdk</depend>
+  <depend>dynamixel_workbench_toolbox</depend>
+</package>

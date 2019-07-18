@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>aecobot_manipulator_h</name>
+  <version>1.0.0</version>
+  <description>
+    ROS packages for the aecobot_manipulator_h (metapackage)
+  </description>
+  <license>BSD</license>
+  <author email="jaewoo127@naver.com">Jaewoo Yoon</author>
+  <author email="rotnn429@naver.com">Jungeun Lee</author>
+  <author email="210321@naver.com">Deukkyoung Yoon</author>
+  <maintainer email="jaewoo127@naver.com">Jaewoo Yoon</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>aecobot_manipulator_h_dynamixel_ctrl</exec_depend>
+  <exec_depend>aecobot_manipulator_h_moveit</exec_depend>
+  <exec_depend>aecobot_manipulator_h_interface</exec_depend>
+  <exec_depend>aecobot_manipulator_h_msgs</exec_depend>
+  <export><metapackage/></export>
+</package>

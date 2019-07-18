@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>aecobot_manipulator_h_msgs</name>
+  <version>1.0.0</version>
+  <description>
+    Messages and services package for aecobot manipulator h to send information about state or pose
+  </description>
+  <license>BSD</license>
+  <author email="jaewoo127@naver.com">Jaewoo Yoon</author>
+  <author email="rotnn429@naver.com">Jungeun Lee</author>
+  <author email="210321@naver.com">Deukkyoung Yoon</author>
+  <maintainer email="jaewoo127@naver.com">Jaewoo Yoon</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>
