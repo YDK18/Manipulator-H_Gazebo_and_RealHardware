@@ -25,7 +25,7 @@ ROS version : kinetic
 
 This connects the dynamixel.
 
-> roslaunch aecobot_manipulator_h_dynamixel_ctrl dynamixel_ctrl.launch
+> roslaunch aecobot_manipulator_h_dynamixel_ctrl dynamixel_controller.launch
 
 ### III. Execute interface package
 
